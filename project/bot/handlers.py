@@ -6,7 +6,7 @@ from aiogram.fsm.context import FSMContext
 from aiogram.utils.keyboard import InlineKeyboardBuilder, ReplyKeyboardBuilder
 from aiogram.types import KeyboardButton
 
-from bot.keyboards import main_kb, cancel_kb
+from bot.keyboards import main_kb
 from bot.states import StockStates
 from bot.stocks_data import TICKERS
 
